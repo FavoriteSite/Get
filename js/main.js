@@ -28,7 +28,7 @@ if (menuBut.length > 0) {
       const gotoBlockValue = block.getBoundingClientRect().top + window.pageYOffset;
 
       let navList = document.querySelector('.header__wrap');
-      navList.classList.toggle('_active');
+      navList.classList.remove('_active');
 
       let bodyElement = document.body;
       bodyElement.classList.remove('_hidden')
