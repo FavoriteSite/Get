@@ -471,7 +471,6 @@ body._hidden {
     top: -2.8125rem;
     height: 25.625rem;
     width: 24.375rem;
-    border: 1px solid red;
   }
 }
 @media (min-width: 2200px) {
